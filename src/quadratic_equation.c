@@ -1,7 +1,7 @@
 #include "quadratic_equation.h"
 
 int solve_equation(double a, double b, double c, double *x1,
-                   double *x2) {  // получить действительные ax^2 + bx + c = 0
+                   double *x2) {  // получить действительные корни ax^2 + bx + c = 0
   int flag = 0;
   if (!isnan(a) && !isnan(b) && !isnan(c) && x1 != NULL &&
       x2 != NULL) {  //предварительная проверка аргументов функции
